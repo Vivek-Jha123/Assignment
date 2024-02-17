@@ -201,6 +201,9 @@
   .blogSec {
     padding: 20px;
   }
+  .Head {
+    font-size: 32px;
+  }
   .firstColumnImageBox img {
     width: 100%;
   }

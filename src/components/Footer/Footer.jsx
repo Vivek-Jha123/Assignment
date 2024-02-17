@@ -44,7 +44,7 @@ const Footer = () => {
               <p className={styles.footerSubPara}>Terms and Conditions</p>
               <p className={styles.footerSubPara}>Return & Refund</p>
             </div>
-            <div className="col-2 col-sm-12">
+            <div className="col-lg-2 col-sm-12">
               <h3 className={styles.footerMenuHead}>Follow Us</h3>
               <div className="d-flex gap-3 mb-3">
                 <img src={insta} width="30px" height="28px" alt="" />
