@@ -1,0 +1,154 @@
+.testimonialSec {
+  padding: 80px 0px 0px 80px;
+  position: relative;
+}
+.testimonialSlides {
+  display: flex;
+  align-items: center;
+  gap: 100px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-bottom: 100px;
+  position: relative;
+}
+.goldenText {
+  background-image: linear-gradient(180deg, #ffe998 50%, #57370d 90%);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  z-index: 1;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.line1,
+.line2,
+.line3,
+.line4,
+.line5 {
+  position: absolute;
+  border: 0px solid #7878784a;
+  height: 723px;
+  width: 0.04px;
+  z-index: -1;
+  top: 0;
+  left: 10%;
+  background: #7878784a;
+}
+.line2 {
+  left: 30% !important;
+}
+.line3 {
+  left: 45% !important;
+}
+.line4 {
+  left: 65% !important;
+}
+.line5 {
+  left: 83% !important;
+}
+.testimonialFirstBox {
+  display: flex;
+  gap: 20px;
+}
+.testimonialLine {
+  border: 2px solid #e5b96f;
+  height: 305px;
+  position: absolute;
+  left: 50%;
+}
+
+.testimonialFirstBoxUserImage img {
+  border-radius: 50%;
+
+  object-fit: cover;
+}
+.starGroup {
+  margin: 20px 0;
+  display: flex;
+  gap: 5px;
+}
+.testimonialPara {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 41px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #c4c4c4;
+}
+.author {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: -0.03em;
+  text-align: left;
+  color: #c4c4c4;
+}
+.profession {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  color: #c4c4c4;
+}
+
+@media screen and (max-width: 600px) {
+  .testimonialSec {
+    padding: 20px;
+  }
+  .goldenText {
+    margin-bottom: 30px;
+    font-size: 28px;
+  }
+  .testimonialSlides {
+    gap: 40px;
+  }
+  .testimonialFirstBox {
+    display: block;
+  }
+  .testimonialPara,
+  .author,
+  .profession {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .testimonialFirstBoxUserImage img {
+    margin-bottom: 30px;
+    width: 60px;
+    height: 60px;
+  }
+  .testimonialFirstBoxContent img {
+    width: 25px;
+    height: 15px;
+  }
+  .starGroup {
+    margin: 5px 0;
+  }
+  .starGroup img {
+    width: 15px;
+    height: 18px;
+  }
+  .testimonialLine {
+    border: 1px solid #e5b96f;
+  }
+  .line1,
+  .line2,
+  .line3,
+  .line4,
+  .line5 {
+    height: 100%;
+  }
+}

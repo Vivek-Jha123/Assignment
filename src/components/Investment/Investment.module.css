@@ -1,0 +1,140 @@
+.investSec {
+  padding: 80px 0px 100px 80px;
+  position: relative;
+}
+.goldenText {
+  background-image: linear-gradient(180deg, #ffe998 50%, #57370d 90%);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  z-index: 1;
+}
+
+.Head {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: linear-gradient(0deg, #cacaca, #cacaca),
+    linear-gradient(
+      180deg,
+      rgba(242, 242, 242, 0.1) 0%,
+      #e3b955 49.5%,
+      #c59b4f 99.99%,
+      #c59b4f 100%
+    ),
+    linear-gradient(180deg, #ffe998 38.22%, #57370d 129.69%);
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+.para {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: justified;
+  color: #7d7d7d;
+  z-index: 1;
+}
+.boxes {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.box {
+  width: 360px;
+  height: 310px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  padding: 45px 25px;
+  margin-top: 50px;
+  position: relative;
+}
+.boxHead {
+  font-family: Noto Serif;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 25px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #edbf6f;
+}
+.boxPara {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #7d7d7d;
+}
+.goldenLine {
+  width: 348px;
+  height: 1px;
+  background: #e9bd66;
+  left: 8px;
+  border-radius: 8px;
+  position: absolute;
+  bottom: 0;
+}
+.line1,
+.line2,
+.line3,
+.line4,
+.line5 {
+  position: absolute;
+  border: 0px solid #7878784a;
+  height: 723px;
+  width: 0.04px;
+  z-index: -1;
+  top: 0;
+  left: 10%;
+  background: #7878784a;
+}
+.line2 {
+  left: 30% !important;
+}
+.line3 {
+  left: 53% !important;
+}
+.line4 {
+  left: 75% !important;
+}
+.line5 {
+  left: 95% !important;
+}
+
+@media screen and (max-width: 600px) {
+  .investSec {
+    padding: 50px 20px 20px;
+  }
+  .boxes {
+    display: block;
+  }
+  .box {
+    width: 100%;
+  }
+  .goldenLine {
+    width: 95%;
+  }
+}

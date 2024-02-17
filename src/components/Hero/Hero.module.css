@@ -1,0 +1,149 @@
+.hero_sec {
+  background-image: url("../../assets/images/hero-bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100vw;
+  height: 93vh;
+  position: relative;
+}
+
+.hero_sec::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.hero_sec > div {
+  position: relative;
+  z-index: 1;
+}
+.firstColumn {
+  margin: 220px 0 0 0px;
+  position: relative;
+}
+.whiteLine {
+  border: 1px solid #ffffff;
+  width: 53px;
+  height: 1px;
+  position: absolute;
+}
+.heroHead {
+  font-size: 60px;
+  line-height: 67.8px;
+  font-weight: 400;
+
+  font-family: "Noto Serif", serif !important;
+  /* background-image: linear-gradient(180deg, #FFFFFF , #cacaca); */
+  background: linear-gradient(0deg, #cacaca, #cacaca),
+    linear-gradient(0deg, #ffffff, #ffffff);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+.goldenText {
+  background-image: linear-gradient(180deg, #ffe998 50%, #57370d 90%);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+.heroPara {
+  color: #7d7d7d;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 28.6px;
+  font-family: "Roboto", sans-serif;
+}
+.goldColor {
+  color: #f0d77b;
+  font-family: "Roboto", sans-serif;
+
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.secondColumn {
+  position: relative;
+}
+.secondColumn img {
+  margin-top: 80px;
+  margin-left: 50px;
+}
+.sliderPrevIcon {
+  position: absolute;
+  bottom: 0;
+  right: 16%;
+}
+.sliderPrevIcon img {
+  transform: rotate(180deg);
+}
+.sliderNextIcon {
+  position: absolute;
+  bottom: 0;
+  right: 11%;
+}
+.fbText {
+  position: absolute;
+  right: -7%;
+  color: #ffffff;
+  font-family: Noto Serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  gap: 26px;
+  transform: rotate(90deg);
+  top: 53%;
+}
+
+@media screen and (max-width: 600px) {
+  .hero_sec {
+    height: auto;
+  }
+  .firstColumn {
+    margin-top: 50px;
+  }
+  .heroHead {
+    font-size: 24px;
+    line-height: 40px;
+  }
+  .heroPara {
+    font-size: 18px;
+  }
+  .goldColor {
+    font-size: 18px;
+  }
+  .fbText {
+    display: none;
+  }
+  .secondColumn img {
+    width: 100%;
+    height: 300px;
+    margin: 30px 0 0;
+  }
+
+  .sliderPrevIcon {
+  }
+  .sliderNextIcon img,
+  .sliderPrevIcon img {
+    display: none;
+  }
+}

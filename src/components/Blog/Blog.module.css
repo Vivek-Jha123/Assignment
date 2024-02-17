@@ -1,0 +1,229 @@
+.blogSec {
+  padding: 100px 0px 100px 80px;
+  position: relative;
+}
+.goldenText {
+  background-image: linear-gradient(180deg, #ffe998 50%, #57370d 90%);
+
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+  z-index: 1;
+}
+
+.Head {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: linear-gradient(0deg, #cacaca, #cacaca),
+    linear-gradient(
+      180deg,
+      rgba(242, 242, 242, 0.1) 0%,
+      #e3b955 49.5%,
+      #c59b4f 99.99%,
+      #c59b4f 100%
+    ),
+    linear-gradient(180deg, #ffe998 38.22%, #57370d 129.69%);
+  -webkit-background-clip: text;
+  background-clip: text;
+
+  color: transparent;
+
+  -webkit-text-fill-color: transparent;
+  text-fill-color: transparent;
+}
+.para {
+  font-family: "Roboto", sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: justified;
+  color: #7d7d7d;
+  z-index: 1;
+  margin-bottom: 60px;
+}
+.blogFirstRow {
+  margin: 0;
+}
+.blogFirstColumn {
+  padding: 0 !important;
+}
+.blogFirstColumn img {
+  width: 100%;
+}
+.blogBox {
+  width: 362px;
+  height: 261px;
+  background: #2d2c2c;
+  padding: 30px 20px;
+}
+.firstColumnImageBox {
+  position: relative;
+}
+.firstColumnImageBox img {
+  opacity: 0.3;
+}
+.firstColumnImageBoxContent {
+  position: absolute;
+  top: 30%;
+  width: 100%;
+  padding: 0 40px;
+}
+.dateContent,
+.dateContentSecondColumn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dateContentHead {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f0d77b;
+}
+.dateContentDate {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #999999;
+}
+.firstColumnImageBoxContentHead {
+  color: #c4c4c4;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.firstColumnImageBoxContentPara {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #c4c4c4;
+}
+.readMoreText {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f0d77b;
+}
+
+.dateContentSecondColumnHead {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f0d77b;
+}
+.dateContentSecondColumnDate {
+  font-family: "Roboto", sans-serif;
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #999999;
+}
+
+.secondColumnImageBoxContentHead {
+  color: #c4c4c4;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.secondColumnImageBoxContentPara {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #c4c4c4;
+}
+.secondreadMoreText {
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #f0d77b;
+}
+.exploreButton {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  color: #f0d77b;
+  border: 1px solid #f0d77b;
+  padding: 7px 30px;
+  border-radius: 4px;
+  margin-left: -65px;
+}
+@media screen and (max-width: 600px) {
+  .blogSec {
+    padding: 20px;
+  }
+  .firstColumnImageBox img {
+    width: 100%;
+  }
+  .blogBox {
+    width: 100%;
+    padding: 15px;
+    height: auto;
+  }
+  .secondColumnImageBoxContentHead {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .secondColumnImageBoxContentPara {
+    font-size: 10px;
+    line-height: 15px;
+  }
+  .dateContentSecondColumnHead,
+  .dateContentSecondColumnDate,
+  .secondreadMoreText {
+    font-size: 8px;
+  }
+  .exploreButton {
+    font-size: 16px;
+    margin-left: 0;
+  }
+}

@@ -1,0 +1,88 @@
+.BusinessSection {
+  position: relative;
+}
+.BusinessSection img {
+  opacity: 0.4;
+}
+.BusinessSectionContent {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.BusinessSectionHead {
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 69px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #e3b955;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+.firstButton {
+  background: #daa74e;
+
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color: #080808;
+
+  padding: 23px 98px 19px 98px;
+  text-wrap: nowrap;
+}
+.secondButton {
+  padding: 23px 98px 19px 98px;
+  text-wrap: nowrap;
+  background: #daa74e;
+  color: #080808;
+  font-size: 30px;
+  font-weight: 500;
+  line-height: 48px;
+  letter-spacing: 0.02em;
+  text-align: left;
+}
+.connectButton {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  color: #f0d77b;
+  border: 1px solid #f0d77b;
+  padding: 7px 30px;
+  border-radius: 4px;
+}
+@media screen and (max-width: 600px) {
+  .BusinessSection img {
+    height: 350px;
+  }
+  .BusinessSectionHead {
+    font-size: 18px;
+    line-height: 32px;
+  }
+  .firstButton,
+  .secondButton {
+    font-size: 14px;
+    padding: 0px 10px;
+  }
+
+  .connectButton {
+    margin-top: 30px;
+  }
+  .buttons {
+    margin-top: 30px;
+  }
+}

@@ -1,0 +1,40 @@
+nav {
+  margin: 35px 0 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  margin-top: 10px;
+}
+nav ul li {
+  margin-right: 50px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  color: #ffffff;
+  position: relative;
+  display: flex;
+  align-items: center;
+  text-wrap: nowrap;
+}
+nav ul li img {
+  margin-left: 10px;
+}
+nav ul li .active {
+  border-top: 1px solid #feb564;
+  width: 24px;
+  height: 3px;
+  position: absolute;
+  top: -5px;
+  left: 0;
+}
+
+@media screen and (max-width: 600px) {
+  .logoParentDiv img {
+    width: 200px;
+    height: 60px;
+  }
+  nav ul li {
+    margin: 0 auto;
+  }
+}
